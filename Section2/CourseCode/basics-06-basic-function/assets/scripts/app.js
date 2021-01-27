@@ -8,6 +8,7 @@ function add(num1, num2) {
 
 add(1, 2);
 add(5, 5);
+// JS precision fun
 add(4.13, 10);
 
 currentResult = ((currentResult + 10) * 3) / 2 - 1;
