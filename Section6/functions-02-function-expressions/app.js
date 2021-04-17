@@ -1,7 +1,7 @@
 const startGameBtn = document.getElementById('start-game-btn');
 
-const start = function() {
-  console.log('Game is starting...');
+const start = function () {
+	console.log('Game is starting...');
 };
 
 // const person = {
@@ -15,4 +15,7 @@ const start = function() {
 
 // console.dir(startGame);
 
+//fucntions are objects, check console
+console.log(typeof start);
+console.dir(start);
 startGameBtn.addEventListener('click', start);
